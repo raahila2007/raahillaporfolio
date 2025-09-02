@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Raahila Anjum.S Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Raahila Anjum.S</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am Raahila Anjum.S, a passionate and dedicated professional with a focus on continuous learning and growth. I enjoy tackling new challenges and expanding my skills.</p>
+        </section>
+
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <ul>
+                <li>Web Development Bootcamp - 2023</li>
+                <li>JavaScript Advanced Course - 2024</li>
+                <li>Responsive Design Certification - 2024</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Version Control (Git)</li>
+                <li>Basic Backend with Node.js</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label><br />
+                <input type="text" id="name" name="name" required /><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" name="email" required /><br />
+
+                <label for="message">Message:</label><br />
+                <textarea id="message" name="message" rows="4" required></textarea><br />
+
+                <button type="submit">Send</button>
+            </form>
+            <p id="responseMsg"></p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
